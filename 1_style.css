@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+.odd{
+    color: red;
+}
+.even{
+    color: yellow;
+}
+h1{
+    border-style: solid;
+    border-radius: 100px;
+}
+.odd{
+    border-bottom: solid red;
+    border-top: double yellow;
+    border-left: ridge blue;
+    border-right: dashed white;
+}
