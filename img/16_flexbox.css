@@ -1,11 +1,16 @@
 .container{
     display: flex;
-    flex-direction: row;
+    border: 10px solid black;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
 }
 .box{
 
     height: 100px;
-    width: 100px; 
+    width: 150px; 
     text-align: center;   
     font-size: 5em;
     border-radius: 20px;
@@ -13,6 +18,7 @@
 }
 #box1{
     background-color: hsl(0, 36%, 56%);
+
 }
 #box2{
     background-color: hsl(240, 100%, 50%);
