@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 5px solid;
+    font-size: 7em;
+    text-align: center;
+
+    transform: translate(100%) rotatez(45deg) scale(0.8);
+}
+#box1{
+    background-color: hsl(109, 100%, 75%);
+}
+#box2{
+    background-color: hsl(241, 100%, 75%);
+}
+#box3{
+    background-color: hsl(58, 100%, 75%);
+}
+#box4{
+    background-color: hsl(356, 100%, 75%);
+}
